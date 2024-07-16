@@ -1,15 +1,17 @@
 {
   "name": "vue-jss-vite",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.3.3",
+  "description": "An available version of vue-jss in vite environment",
   "main": "index.js",
+  "module": "index",
   "type": "module",
+  "types": "./lib",
   "scripts": {
     "build": "vite build"
   },
-  "keywords": [],
+  "keywords": ["css-in-js", "vue-jss", "vue-jss-vite"],
   "author": "ZHR",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
     "@tsconfig/node20": "^20.1.4",
