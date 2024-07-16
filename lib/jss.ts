@@ -1,4 +1,4 @@
 import { create } from 'jss'
 import preset from 'jss-preset-default'
 
-export default create({})
+export default create(preset())
